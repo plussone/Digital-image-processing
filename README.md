@@ -1,5 +1,5 @@
-## Digital-image-processing Course                 ##
-\## hdu Digital Image Processing Course's Classwork ##
+# Digital-image-processing Course                   #
+## hdu Digital Image Processing Course's Classwork ##
 #####################################################
 
 #20200320<br>
