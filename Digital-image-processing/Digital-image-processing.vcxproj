@@ -114,6 +114,7 @@
   <ItemGroup>
     <ClCompile Include="032001.cpp" />
     <ClCompile Include="032002.cpp" />
+    <ClCompile Include="032003.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

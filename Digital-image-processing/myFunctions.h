@@ -5,3 +5,4 @@ using namespace cv;
 
 void test032001();
 void test032002();
+void test032003();
