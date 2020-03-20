@@ -113,10 +113,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="032001.cpp" />
+    <ClCompile Include="032002.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="032002.cpp" />
     <ClInclude Include="myFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
