@@ -4,8 +4,6 @@
 
 using namespace cv;
 
-
-
 void test032702()
 {
 	VideoCapture cap(0);
