@@ -1,10 +1,11 @@
-/*读取摄像头图像，并对摄像头图像进行中值滤波。*/
+/*读取摄像头图像，并对摄像头图像进行边缘提取，分别提取x，y方向上的边缘，观察结果有何区别。*/
+
 #include<iostream>
 #include<opencv2\opencv.hpp>
 
 using namespace cv;
 
-void test032701()
+void test032704()
 {
 	VideoCapture cap(0);
 	while (1)
@@ -12,7 +13,7 @@ void test032701()
 		Mat frame;
 		Mat newMat;
 		cap >> frame;
-		medianBlur(frame, newMat, 3);
+		Sobel(frame, newMat, -1, 1, 1);
 		imshow("frame", frame);
 		imshow("newMat", newMat);
 
