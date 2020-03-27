@@ -11,6 +11,7 @@ void test032703()
 	{
 		Mat frame;
 		Mat newMat;
+
 		cap >> frame;
 		GaussianBlur(frame, newMat, Size(3,3),0.1);
 		imshow("frame", frame);
