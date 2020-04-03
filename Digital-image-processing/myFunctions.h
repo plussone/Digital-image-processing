@@ -21,4 +21,5 @@ void test040301();
 void test040302();
 void test040303();
 void test040304();
-void test040305();
+void test040305(); 
+void test040306();

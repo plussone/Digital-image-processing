@@ -125,6 +125,7 @@
     <ClCompile Include="040302.cpp" />
     <ClCompile Include="040303.cpp" />
     <ClCompile Include="040304.cpp" />
+    <ClCompile Include="040305.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
