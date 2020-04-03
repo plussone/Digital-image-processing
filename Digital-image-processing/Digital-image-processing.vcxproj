@@ -122,6 +122,7 @@
     <ClCompile Include="032704.cpp" />
     <ClCompile Include="032705.cpp" />
     <ClCompile Include="040301.cpp" />
+    <ClCompile Include="040302.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
