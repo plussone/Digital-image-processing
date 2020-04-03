@@ -1,4 +1,4 @@
-/*canny算子*/
+/*旋转及缩放*/
 
 #include<iostream>
 #include<opencv2\opencv.hpp>
