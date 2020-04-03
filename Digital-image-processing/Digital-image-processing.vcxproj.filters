@@ -51,6 +51,9 @@
     <ClCompile Include="040302.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="040303.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myFunctions.h">
