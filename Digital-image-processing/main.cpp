@@ -2,6 +2,6 @@
 
 int main()
 {
-	test040305();
+	test040306();
 	return 0;
 }
