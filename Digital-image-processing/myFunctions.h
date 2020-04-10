@@ -23,3 +23,8 @@ void test040303();
 void test040304();
 void test040305(); 
 void test040306();
+
+/*20200410*/
+void test041001();
+void test041002();
+void test041003();
