@@ -75,6 +75,9 @@
     <ClCompile Include="041703.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="041702.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myFunctions.h">
