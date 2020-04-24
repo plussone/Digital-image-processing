@@ -1,4 +1,4 @@
-/*findContours提取和筛选轮廓*/
+/*手动实现hog*/
 
 #include<iostream>
 #include<opencv2\opencv.hpp>
