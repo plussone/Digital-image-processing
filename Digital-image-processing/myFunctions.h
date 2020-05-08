@@ -36,3 +36,9 @@ void test041703();
 
 /*20200424*/
 void test042401();
+
+/*20200508*/
+void test050801();
+void test050802();
+void test050803();
+void test050804();

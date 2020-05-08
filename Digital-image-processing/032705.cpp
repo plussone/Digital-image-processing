@@ -26,8 +26,8 @@ void test032705()
 
 	while(1)
 	{
-		cap >> frame;
-
+		//cap >> frame;
+		frame = imread("D:\\照片.jpg");
 		//HSV
 		Size ResImgSiz = Size(frame.cols*scale, frame.rows*scale);
 		Mat rFrame = Mat(ResImgSiz, frame.type());
@@ -59,6 +59,8 @@ void test032705()
 				newrFrame.at<Vec3b>(j, i)[2] = newrFrame.at<Vec3b>(j, i)[2] > 255 ? 255 : newrFrame.at<Vec3b>(j, i)[2];
 			}
 		}
+
+		imwrite("D:\\照片ps.jpg", newrFrame);
 		imshow("rFrame", newrFrame);
 		imshow("frame", rFrame);
 
