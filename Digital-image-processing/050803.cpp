@@ -1,4 +1,4 @@
-/*傅里叶变换*/
+/*傅里叶逆变换*/
 #include<iostream>
 #include<opencv2\opencv.hpp>
 
