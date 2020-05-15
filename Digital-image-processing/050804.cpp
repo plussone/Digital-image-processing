@@ -130,7 +130,7 @@ void test050804()
 	cv::Mat phMat1;
 	cv::Mat phMat2;
 	cv::Mat dstMat;
-	for(int p =1;p<101;p+=1)
+	for(int p =1;p<300;p+=1)
 	{
 		dftDemo(srcMat1, &phMat1, &magMat1);
 		dftDemo(srcMat2, &phMat2, &magMat2);
