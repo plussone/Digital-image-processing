@@ -143,6 +143,7 @@
     <ClCompile Include="051502.cpp" />
     <ClCompile Include="051503.cpp" />
     <ClCompile Include="052201.cpp" />
+    <ClCompile Include="052202.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
