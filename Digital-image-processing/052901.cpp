@@ -1,4 +1,6 @@
-/*手动实现hog*/
+/*利用第九周缩写的基于HOG的图片相似度计算的函数，完
+成一个基于HOG的目标物体追踪程序。以下图中的右图为
+模板，实现在右图中的定位功能*/
 
 #include<iostream>
 #include<opencv2\opencv.hpp>
