@@ -145,6 +145,7 @@
     <ClCompile Include="052201.cpp" />
     <ClCompile Include="052202.cpp" />
     <ClCompile Include="052901.cpp" />
+    <ClCompile Include="060501.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="test052902.cpp" />
   </ItemGroup>

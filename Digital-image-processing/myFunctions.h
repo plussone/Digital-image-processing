@@ -56,3 +56,7 @@ void test052202();
 /*20200529*/
 void test052901();
 void test052902();
+
+/*20200605*/
+void test060501();
+void test060502();
