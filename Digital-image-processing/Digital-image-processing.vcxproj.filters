@@ -120,6 +120,9 @@
     <ClCompile Include="060501.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="060502.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myFunctions.h">
