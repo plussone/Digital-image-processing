@@ -1,8 +1,8 @@
 /*K meansÁ·Ï°*/
 #include<iostream>
 #include<opencv2\opencv.hpp>
-#include "opencv2/highgui/highgui.hpp"
-#include "opencv2/core/core.hpp"
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/core/core.hpp>
 
 void test060501()
 {
@@ -20,7 +20,7 @@ void test060501()
 
 	//Ö´ÐÐkmeans
 	cv::TermCriteria criteria = cv::TermCriteria(cv::TermCriteria::EPS + cv::TermCriteria::COUNT, 10, 0.1);
-	cv::kmeans(km_data, 2, labels, criteria, 2, KMEANS_PP_CENTERS, centers);
+	cv::kmeans(km_data, 2, labels, criteria, 2, cv::KMEANS_PP_CENTERS, centers);
 
 	//ÖÆ×÷mask
 	for (int i = 0; i < mask.rows; i++)
